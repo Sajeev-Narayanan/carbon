@@ -146,18 +146,18 @@
         </div>
         <div class="col-lg-6 col-md-8">
             <div class="contact-box">
-              <form>
+              <form action="/" method="GET">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Name Here" name="name">
+                  <input type="text" class="form-control" placeholder="Name Here" name="name" id="name" required>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Email Here" name="mail">
+                  <input type="email" class="form-control" placeholder="Email Here" name="mail" id="mail" required>
                 </div>
                 <div class="form-group">
-                  <input type="number" class="form-control" placeholder="Contact Number Here" name="contact">
+                  <input type="tel" class="form-control" placeholder="Contact Number Here" pattern="[0-9]{10}" name="contact" id="contact" required>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" placeholder="Message" name="message"></textarea>
+                  <textarea class="form-control" placeholder="Message" name="message" id="message" required></textarea>
                 </div>
                 <div class="form-group text-center">
                   <button class="text-uppercase btn btn-success" type="submit">Send message</button>
@@ -185,6 +185,8 @@
 
 
 
+  
+<script src="js/validation.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
