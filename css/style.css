@@ -23,16 +23,3 @@ body{font-family: 'Fira Sans', sans-serif;}
         width: 60px;
     }
 }
-/* #contact
-{
-    outline: 0;
-}
-#contact:valid
-{
-    border-color: green;
-}
-#contact:focus:invalid
-{
-    border-color: red;
-} */
-
